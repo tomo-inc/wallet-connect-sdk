@@ -91,7 +91,8 @@ export default defineConfig(({ mode }) => {
           'protobufjs/src',
           '@protobufjs',
           'long',
-          'buffer'
+          'buffer',
+          /^unenv/
         ],
         plugins: [
           // inject({
