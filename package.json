@@ -1,7 +1,7 @@
 {
   "name": "@tomo-inc/wallet-connect-sdk",
   "description": "wallet-connect-sdk",
-  "version": "0.3.24",
+  "version": "0.3.25",
   "type": "module",
   "exports": {
     ".": {
@@ -30,7 +30,8 @@
     "jotai": "^2.9.0",
     "long": "^5.2.3",
     "starknet": "^6.24.1",
-    "tailwind-merge": "2.2.2"
+    "tailwind-merge": "2.2.2",
+    "unenv": "^1.10.0"
   },
   "peerDependencies": {
     "react": "^18",
